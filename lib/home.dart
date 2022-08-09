@@ -44,8 +44,7 @@ class _HomeState extends State<Home> {
                 onPressed: () async {
                   dynamic result =
                       await Navigator.pushNamed(context, '/location');
-                  print(
-                      result); // recive this result = {location: Africa/Cairo}
+                  print(result); // recive this result = {location: Africa/Cairo}
                   String location = result['location'];
 
                   // start Location
